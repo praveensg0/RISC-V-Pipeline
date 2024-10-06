@@ -50,7 +50,7 @@ module tb_memory_cycle();
 
     // Dump waveform
     initial begin
-        $dumpfile("dump.vcd");
+        $dumpfile("memory_dump.vcd");
         $dumpvars(0);
     end
 
