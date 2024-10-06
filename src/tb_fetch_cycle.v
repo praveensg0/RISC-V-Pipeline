@@ -38,7 +38,7 @@ module tb();
 
     // Generation of clocl
     initial begin
-        $dumpfile("dump.vcd");
+        $dumpfile("fetch_dump.vcd");
         $dumpvars(0);
     end
 
