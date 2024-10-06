@@ -12,7 +12,7 @@
 //    See the License for the specific language governing permissions and
 //    limitations under the License.
 
-module tb();
+module tb_fetch_cycle();
 
     // Declare I/O
     reg clk =1, rst, PCSrcE;
